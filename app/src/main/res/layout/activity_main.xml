@@ -48,17 +48,45 @@
 
             <TableRow>
 
+            <android.view.View android:layout_height="60dp" />
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="wrap_content"
+
+                android:gravity="fill_horizontal"
+                android:padding="20dp"
+                android:text="@string/txtDescription"
+                android:textSize="30sp"
+                android:layout_gravity="start"/>
+
+        </TableRow>
+
+            <TableRow>
+
+                <android.view.View android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/btnDate"
+                    android:layout_width="wrap_content"
+
+                    android:gravity="center_horizontal"
+
+                    android:padding="20dp"
+                    android:text="@string/btnDate"
+                    android:textSize="36sp" />
+
+            </TableRow>
+
+            <TableRow>
+
                 <android.view.View android:layout_height="60dp" />
 
                 <TextView
-                    android:id="@+id/txtDescription"
-                    android:layout_width="wrap_content"
-
-                    android:gravity="fill_horizontal"
+                    android:id="@+id/txtReservation"
+                   android:textSize="36sp"
                     android:padding="20dp"
-                    android:text="@string/txtDescription"
-                    android:textSize="30sp"
-                    android:layout_gravity="start"/>
+                    android:layout_gravity="center"/>
 
             </TableRow>
 

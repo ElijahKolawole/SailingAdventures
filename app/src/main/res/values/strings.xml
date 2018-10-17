@@ -9,4 +9,5 @@
         Select a date for your sailing day trip</string>
     <string name="txtTitle">Sailing Adventure - Kona, Hawaii</string>
     <string name="resText">Your reservation is set for</string>
+    <string name="action_settings">Settings</string>
 </resources>

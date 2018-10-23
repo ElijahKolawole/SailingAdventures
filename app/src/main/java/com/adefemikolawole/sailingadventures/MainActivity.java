@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
        c.set(Calendar.YEAR, year);
        c.set(Calendar.MONTH, month);
        c.set(Calendar.DAY_OF_MONTH, dayOfMonth);
-       reservation.setText( R.string.resText + fmtDate.format(c.getTime()));
+       reservation.setText( "Your reservation is set for " + fmtDate.format(c.getTime()));
         }
     };
 
